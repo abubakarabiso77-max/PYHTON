@@ -1,13 +1,13 @@
 import turtle
 
 # create screen
-screen = turtle.screen()
+screen = turtle.Screen()
 screen.setup(width=600,height=600)
-screen.bgcolor(lightblue)
-screen.title(Drawing a square)
+screen.bgcolor("lightblue")
+screen.title("Drawing a square")
 
 # create pen
-pen = pen.screen
+pen = turtle.Turtle()
 pen.color("black")
 pen.pensize(3)
 
