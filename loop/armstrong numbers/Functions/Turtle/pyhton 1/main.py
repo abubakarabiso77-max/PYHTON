@@ -1,0 +1,17 @@
+list1 = [1,2,3,4]
+print(list1{-1})
+print(len(list1))
+print(list1[1:2+1])
+list1.append("Aryan")
+print(list1)
+list1.remove("Aryan")
+print(list1)
+list1.pop(0)
+print(list1)
+list2 = [4,2,0,6,19] 
+list2.sort()
+print(list2)
+list2.reverse()
+print(list2)
+list2.clear()
+print(list2)
